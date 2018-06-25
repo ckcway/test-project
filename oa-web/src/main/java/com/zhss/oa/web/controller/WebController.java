@@ -27,6 +27,7 @@ public class WebController {
 	public String addEmployee(Employee employee) {
 		try {
 			employeeService.addEmployee(employee);
+			System.out.println("add employee ....");
 		} catch (Exception e) {
 			e.printStackTrace(); 
 			return "error";
