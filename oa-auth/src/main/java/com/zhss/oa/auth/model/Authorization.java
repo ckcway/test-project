@@ -29,9 +29,9 @@ public class Authorization {
 	public void setRoleId(Long roleId) {
 		this.roleId = roleId;
 	}
-	
 	@Override
 	public String toString() {
-		return super.toString();
+		return "Authorization [id=" + id + ", employeeId=" + employeeId + ", roleId=" + roleId + "]";
 	}
+	
 }
