@@ -26,6 +26,7 @@ public class WebController {
 	@ResponseBody
 	public String addEmployee(Employee employee) {
 		try {
+			System.out.println("add 12312");
 			employeeService.addEmployee(employee);
 			System.out.println("add employee ....");
 		} catch (Exception e) {
