@@ -15,6 +15,7 @@ public class ApplicationServiceImpl implements ApplicationService {
 	
 	public void create(Application app) {
 		applicationMapper.create(app); 
+		System.out.println("I am zhangsan");
 	}
 
 	public void delete(Long id) {
