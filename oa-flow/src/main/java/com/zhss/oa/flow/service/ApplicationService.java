@@ -10,4 +10,7 @@ public interface ApplicationService {
 	
 	public Application findById(Long id);
 	
+	
+		public Application update(Long id);
+	
 }
